@@ -15,7 +15,7 @@ router.get('/login', function(req, res, next) {
 });
 
 
-// Do auth
+// Do auth and login user based on details
 router.post('/login/auth', function(req, res) {
 
     var user = req.body.username;
